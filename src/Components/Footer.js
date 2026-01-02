@@ -76,7 +76,7 @@ export default function Footer() {
 
             {/* BOTTOM ROW */}
             <div className="footer-bottom">
-                <span>© Kaygen Inc.</span>
+                <span>© Subven Tech.</span>
                 <a href="#">Privacy Policy</a>
             </div>
 

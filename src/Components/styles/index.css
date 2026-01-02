@@ -11,6 +11,11 @@
   z-index:20;
 }
 
+.logo-link{
+  text-decoration:none;
+  color: none;
+}
+
 .nav-left{display:flex;align-items:center;gap:10px;}
 .logo{height:34px;}
 .brand{font-size: 26px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
@@ -37,23 +42,30 @@
 .btn-green{background:#8bc500;color:white;padding:9px 18px;border-radius:6px;border:none;}
 .search-dropdown:hover .right-menu{display:flex;}
 
-.hamburger{display:none;font-size:25px;cursor:pointer;}
+.hamburger{display:none;font-size:26px;cursor:pointer;color: #0b3c78;}
 
 /* MOBILE PANEL */
 .mobile-menu{
   position:fixed;
   top:0;
-  right:-300px;
-  width:280px;
+  right:-320px;
+  width:300px;
   height:100vh;
   background:white;
   padding:20px;
-  transition:0.4s;
+  transition:0.4s ease;
+   z-index:99; 
 }
 .mobile-menu.open{right:0;}
 .mobile-item{padding:12px 0;border-bottom:1px solid #ddd;cursor:pointer;color:black;}
 .mobile-dropdown{padding-left:15px;display:flex;flex-direction:column;}
 .close-btn{text-align:right;font-size:20px;cursor:pointer;color:black;}
+.mobile-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.5);
+  z-index:98;
+}
 
 /* Responsive */
 @media(max-width:900px){

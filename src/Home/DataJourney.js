@@ -5,12 +5,18 @@ import {
   FaCloud,
   FaRobot,
   FaShieldAlt,
-  FaRocket
+  FaRocket, 
 } from "react-icons/fa";
+import { SiOracle } from "react-icons/si";
 
 export default function DataJourney() {
 
   const items = [
+    {
+      title: "Oracle Solutions",
+      text: "Enterprise-grade Oracle solutions including Oracle Cloud Infrastructure, databases, integrations, and performance optimization",
+      icon: <SiOracle />
+    },
     {
       title: "Strategy & Management",
       text: "Seasoned management consultants, strategists and advisors across diverse industries including Financial, Health Care, Life Sciences, Hi-Tech and Automotive",

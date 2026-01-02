@@ -5,6 +5,8 @@ import Services from "./Services";
 import Talent from "./Talent";
 import Company from "./Company";
 import Footer from "./Components/Footer";
+import Clients from "./Clients";
+import Oracle from "./Services/OracleServices";
 
 export default function App() {
   return (
@@ -13,13 +15,14 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-
         <Route path="/services" element={<Services />} />
-        <Route path="/services/talent-solutions" element={<Services />} />
+        <Route path="/oracle-services" element={<Oracle />} />
         <Route path="/services/tech-consulting" element={<Services />} />
 
         <Route path="/talent" element={<Talent />} />
         <Route path="/company" element={<Company />} />
+        <Route path="/clients" element={<Clients />} />
+
       </Routes>
 
       <Footer />
