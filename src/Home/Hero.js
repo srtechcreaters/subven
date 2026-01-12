@@ -33,7 +33,7 @@ export default function Hero(){
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTxu0RZZuQ9O68dbwryANdp7lFTBFCHKsOkA&s" alt="Thermo Fisher"/>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTs5BfWIzjz9OlRIMQPWb3ZAyQImh9fZUqQ&s" alt="Deloitte"/>
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_carlogo.svg" alt="Toyota"/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJlen_vDXAY6JiZJ7hNdfmrvV5TAw5T3JFPA&s" alt="CoreLogic"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1280px-Infosys_logo.svg.png" alt="Infosys"/>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS33QdOQ6YqqQIbMXnn3jw-Q4uS2p_MZEcK3w&s" alt="EY"/>
           </div>
         </div>

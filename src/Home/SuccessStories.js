@@ -4,19 +4,19 @@ export default function SuccessStories() {
 
   const cards = [
     {
-      brand: "CoreLogic",
+      // brand: "CoreLogic",
       img: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
-      text: "CoreLogic moves its real estate analytics leadership to the Cloud"
+      text: "SubVen drives Outcome based Manage services and KPI improvement for a manufacturing company"
     },
     {
-      brand: "TAPFIN",
+      // brand: "TAPFIN",
       img: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
-      text: "When Tapfin needed to hit its SLA for a large client, SubVen delivered"
+      text: "SubVen helps large real estate clients migrate its enterprise analytics to cloud"
     },
     {
-      brand: "Deloitte",
+      // brand: "Deloitte",
       img: "https://images.pexels.com/photos/3862371/pexels-photo-3862371.jpeg",
-      text: "SubVen helped Deloitte build a Smart Factory of the Future"
+      text: "SubVen delivers successful Cloud transformation to a professional services company using Oracle fusion cloud"
     }
   ];
 

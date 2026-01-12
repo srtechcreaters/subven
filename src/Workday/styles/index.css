@@ -1,0 +1,83 @@
+.workday-accordion-section{
+  padding:80px 10%;
+  background:#ffffff;
+}
+
+/* ACCORDION CONTAINER */
+.workday-accordion{
+  max-width:900px;
+  margin:40px auto 0;
+}
+
+/* ITEM */
+.workday-item{
+  border-radius:12px;
+  border:1px solid #dbe3f3;
+  margin-bottom:18px;
+  overflow:hidden;
+}
+
+/* TITLE BUTTON */
+.workday-title{
+  width:100%;
+  padding:18px 22px;
+  background:#f6f8fc;
+  border:none;
+  font-size:16px;
+  font-weight:600;
+  text-align:left;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.workday-title:hover{
+  background:#eef3ff;
+  color:#1d7dfa;
+}
+
+/* CONTENT */
+.workday-content{
+  padding:22px 26px;
+  background:white;
+  line-height:1.6;
+  animation:slideDown 0.4s ease;
+}
+
+.workday-content p{
+  margin-bottom:12px;
+  color:#444;
+}
+
+.workday-content h4{
+  margin:15px 0 8px;
+  color:#0b3c78;
+}
+
+.workday-content ul{
+  margin-left:18px;
+  margin-bottom:12px;
+}
+
+.workday-content li{
+  margin-bottom:6px;
+  color: black;
+}
+
+/* ANIMATION */
+@keyframes slideDown{
+  from{
+    opacity:0;
+    transform:translateY(-8px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .workday-accordion-section{
+    padding:60px 6%;
+  }
+}

@@ -25,7 +25,7 @@ export default function Footer() {
                     </div>
 
                     <p className="policy-text">
-                        By subscribing you agree to our <span>Privacy Policy</span> and consent to receive
+                        By subscribing you agree to our <a href="/privacy" ><span>Privacy Policy </span></a> and consent to receive
                         updates from our company.
                     </p>
                 </div>
@@ -36,22 +36,22 @@ export default function Footer() {
 
                     <div>
                         <h4>Menu</h4>
-                        <a href="#">Talent Solutions</a>
-                        <a href="#">Tech Consulting</a>
-                        <a href="#">Clients</a>
-                        <a href="#">Hire Talent</a>
+                        <a href="/oracle-services">Oracle Services</a>
+                        <a href="/services/tech-consulting">Tech Consulting</a>
+                        <a href="/clients">clients</a>
                         <a href="#">Search Jobs</a>
-                        <a href="#">Employee Portal</a>
+                        <a href="#">Our Talent Pool</a>
+                        {/* <a href="#">Employee Portal</a> */}
                     </div>
 
                     <div>
                         <h4>Company</h4>
-                        <a href="#">About</a>
+                        <a href="/about">About</a>
                         <a href="#">Careers</a>
-                        <a href="#">DEI</a>
-                        <a href="#">Partnerships</a>
-                        <a href="#">News</a>
-                        <a href="#">Contact</a>
+                        {/* <a href="#">DEI</a> */}
+                        {/* <a href="#">Partnerships</a> */}
+                        {/* <a href="#">News</a> */}
+                        <a href="/contact">Contact</a>
                     </div>
 
                     <div>
@@ -77,7 +77,7 @@ export default function Footer() {
             {/* BOTTOM ROW */}
             <div className="footer-bottom">
                 <span>© Subven Tech.</span>
-                <a href="#">Privacy Policy</a>
+                <a href="/privacy">Privacy Policy</a>
             </div>
 
         </footer>

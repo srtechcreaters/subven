@@ -7,6 +7,10 @@ import Company from "./Company";
 import Footer from "./Components/Footer";
 import Clients from "./Clients";
 import Oracle from "./Services/OracleServices";
+import Contact from "./Contact";
+import Privacy from "./Privacy";
+import OracleServices from "./Home/OracleServices";
+import Workday from "./Workday";
 
 export default function App() {
   return (
@@ -18,10 +22,14 @@ export default function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/oracle-services" element={<Oracle />} />
         <Route path="/services/tech-consulting" element={<Services />} />
-
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/about" element={<OracleServices />} />
         <Route path="/talent" element={<Talent />} />
         <Route path="/company" element={<Company />} />
         <Route path="/clients" element={<Clients />} />
+        <Route path="/workday" element={<Workday />} />
+
 
       </Routes>
 

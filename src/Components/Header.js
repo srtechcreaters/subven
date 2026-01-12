@@ -49,17 +49,23 @@ export default function Header() {
               Clients
             </NavLink>
           </li>
+          <li>
+
+          <NavLink className="nav-link" to="/workday">
+              Workday
+            </NavLink>
+          </li>
 
           <li className="dropdown">
-            <NavLink className="nav-link" to="/talent">
+            <NavLink className="nav-link" to="/">
               Talent ▾
             </NavLink>
 
             <div className="dropdown-menu">
-              <NavLink className="dropdown-link" to="/talent/why">Why Subven</NavLink>
-              <NavLink className="dropdown-link" to="/talent/community">Community</NavLink>
-              <NavLink className="dropdown-link" to="/talent/benefits">Benefits</NavLink>
-              <NavLink className="dropdown-link" to="/jobs">Jobs</NavLink>
+              <NavLink className="dropdown-link" to="/">Why Subven</NavLink>
+              <NavLink className="dropdown-link" to="/">Community</NavLink>
+              <NavLink className="dropdown-link" to="/">Benefits</NavLink>
+              <NavLink className="dropdown-link" to="/">Jobs</NavLink>
             </div>
           </li>
 

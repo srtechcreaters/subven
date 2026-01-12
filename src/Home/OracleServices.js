@@ -27,6 +27,37 @@ export default function OracleServices() {
 
 
 
+      
+
+            {/* ===== CAROUSEL ===== */}
+      <div
+        className="oracle-slider"
+        style={{ backgroundImage: `url(${slides[active].img})` }}
+      >
+        <div className="oracle-overlay"></div>
+
+        <div className="oracle-card">
+          <h2>{slides[active].title}</h2>
+          <p>{slides[active].desc}</p>
+        </div>
+
+        {/* NAV */}
+        <button className="arrow left" onClick={() => setActive((active + 2) % 3)}>‹</button>
+        <button className="arrow right" onClick={() => setActive((active + 1) % 3)}>›</button>
+
+        {/* DOTS */}
+        <div className="dots">
+          {slides.map((_, i) => (
+            <span
+              key={i}
+              className={active === i ? "dot active" : "dot"}
+              onClick={() => setActive(i)}
+            />
+          ))}
+        </div>
+      </div>
+
+
       {/* ===== ORACLE FUSION AREAS ===== */}
       <div className="oracle-grid">
 
@@ -65,34 +96,6 @@ export default function OracleServices() {
           </ul>
         </div>
 
-      </div>
-
-            {/* ===== CAROUSEL ===== */}
-      <div
-        className="oracle-slider"
-        style={{ backgroundImage: `url(${slides[active].img})` }}
-      >
-        <div className="oracle-overlay"></div>
-
-        <div className="oracle-card">
-          <h2>{slides[active].title}</h2>
-          <p>{slides[active].desc}</p>
-        </div>
-
-        {/* NAV */}
-        <button className="arrow left" onClick={() => setActive((active + 2) % 3)}>‹</button>
-        <button className="arrow right" onClick={() => setActive((active + 1) % 3)}>›</button>
-
-        {/* DOTS */}
-        <div className="dots">
-          {slides.map((_, i) => (
-            <span
-              key={i}
-              className={active === i ? "dot active" : "dot"}
-              onClick={() => setActive(i)}
-            />
-          ))}
-        </div>
       </div>
 
     </section>

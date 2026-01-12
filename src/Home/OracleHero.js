@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles/index.css";
 
 export default function OracleHero() {
@@ -25,7 +26,7 @@ export default function OracleHero() {
 
           <div className="oracle-hero-actions">
             <button className="btn-blue">Explore Oracle Services</button>
-            <button className="btn-outline">Talk to Oracle Experts</button>
+            <Link to="/contact"><button className="btn-outline">Talk to Oracle Experts</button></Link>
           </div>
         </div>
 
